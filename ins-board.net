@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/mi/dev/elektronik/pcb/kicad/ins-board/ins-board.sch)
-    (date "Fri 07 Feb 2014 05:17:22 PM CET")
-    (tool "eeschema (2013-mar-13)-testing"))
+    (source /media/dev/elektronik/projekte/ins-board/ins-board.sch)
+    (date "Fri 17 May 2013 05:50:13 PM UTC")
+    (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref R11)
       (value 4.7k)
@@ -380,7 +380,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51973337))
     (comp (ref R19)
-      (value 0.065)
+      (value 0.068)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5197374F))
@@ -524,7 +524,9 @@
         (fp C1-1))
       (fields
         (field (name Reference) C)
-        (field (name Value) C))
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -535,7 +537,9 @@
         (fp S*))
       (fields
         (field (name Reference) D)
-        (field (name Value) DIODESCH))
+        (field (name Value) DIODESCH)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -543,14 +547,18 @@
       (description "Filtre EMI")
       (fields
         (field (name Reference) FB)
-        (field (name Value) FILTER))
+        (field (name Value) FILTER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
     (libpart (lib device) (part FUSE)
       (fields
         (field (name Reference) F)
-        (field (name Value) FUSE))
+        (field (name Value) FUSE)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type input))
         (pin (num 2) (name ~) (type input))))
@@ -565,7 +573,9 @@
         (fp LEDV))
       (fields
         (field (name Reference) D)
-        (field (name Value) LED))
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -573,7 +583,9 @@
       (docs transistors/mos/*.*)
       (fields
         (field (name Reference) Q)
-        (field (name Value) MOS_N))
+        (field (name Value) MOS_N)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num D) (name D) (type passive))
         (pin (num G) (name G) (type input))
@@ -582,7 +594,9 @@
       (docs transistors/mos/*.*)
       (fields
         (field (name Reference) Q)
-        (field (name Value) MOS_P))
+        (field (name Value) MOS_P)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num D) (name D) (type passive))
         (pin (num G) (name G) (type input))
@@ -597,7 +611,9 @@
         (fp SM1206))
       (fields
         (field (name Reference) R)
-        (field (name Value) R))
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -609,7 +625,9 @@
         (fp SM*))
       (fields
         (field (name Reference) D)
-        (field (name Value) ZENER))
+        (field (name Value) ZENER)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
@@ -617,10 +635,24 @@
       (description "Symbole general de connecteur")
       (fields
         (field (name Reference) P)
-        (field (name Value) CONN_2))
+        (field (name Value) CONN_2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))))
+    (libpart (lib linear-regulators) (part LT1761-3.3)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LT1761-3.3)
+        (field (name Footprint) MODULE)
+        (field (name Datasheet) DOCUMENTATION))
+      (pins
+        (pin (num 1) (name IN) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name ~SHDN) (type input))
+        (pin (num 4) (name BYP) (type power_out))
+        (pin (num 5) (name OUT) (type power_out))))
     (libpart (lib connectors) (part CAN)
       (fields
         (field (name Reference) CONN)
@@ -840,18 +872,6 @@
         (pin (num 6) (name SDO) (type output))
         (pin (num 7) (name SDI/SDA) (type BiDi))
         (pin (num 8) (name SCLK) (type input))))
-    (libpart (lib linear-regulators) (part LT1761-3.3)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) LT1761-3.3)
-        (field (name Footprint) MODULE)
-        (field (name Datasheet) DOCUMENTATION))
-      (pins
-        (pin (num 1) (name IN) (type power_in))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 3) (name ~SHDN) (type input))
-        (pin (num 4) (name BYP) (type power_out))
-        (pin (num 5) (name OUT) (type power_out))))
     (libpart (lib stm32) (part STM32F415RGT6)
       (fields
         (field (name Reference) U)
@@ -944,14 +964,14 @@
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical sensors)
-      (uri kicad-lib/components/sensors.lib))
     (library (logical connectors)
       (uri kicad-lib/components/connectors.lib))
     (library (logical div)
       (uri kicad-lib/components/div.lib))
     (library (logical stm32)
       (uri kicad-lib/components/stm32.lib))
+    (library (logical sensors)
+      (uri kicad-lib/components/sensors.lib))
     (library (logical linear-regulators)
       (uri kicad-lib/components/linear-regulators.lib)))
   (nets
