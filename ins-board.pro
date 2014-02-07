@@ -15,7 +15,12 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=sd
+LibName12=div
+LibName13=std
+LibName14=lqfp
+LibName15=sensors
+LibName16=connectors
+LibName17=sd
 LibDir=../download;kicad-lib/footprints
 [cvpcb]
 version=1
