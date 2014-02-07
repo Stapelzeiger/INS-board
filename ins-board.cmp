@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 07 Feb 2014 05:58:36 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 07 Feb 2014 11:29:21 PM CET
 
 BeginCmp
 TimeStamp = /512952F6;
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /51292368;
 Reference = CONN1;
 ValeurCmp = JTAG;
-IdModule  = Molex-PicoBlade-SMD-8;
+IdModule  = _Molex-PicoBlade-SMD-8;
 EndCmp
 
 BeginCmp
@@ -263,49 +263,49 @@ BeginCmp
 TimeStamp = /517D9D13;
 Reference = CONN3;
 ValeurCmp = MICRO_USB;
-IdModule  = Micro-USB-AB-receptacle-SMT;
+IdModule  = _Micro-USB-AB-receptacle-SMT;
 EndCmp
 
 BeginCmp
 TimeStamp = /51292359;
 Reference = CONN4;
 ValeurCmp = I2C/UART;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51292362;
 Reference = CONN5;
 ValeurCmp = CAN;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /512925F1;
 Reference = CONN6;
 ValeurCmp = UART;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /512925F5;
 Reference = CONN7;
 ValeurCmp = UART;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /512925FD;
 Reference = CONN8;
 ValeurCmp = UART;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /51292600;
 Reference = CONN9;
 ValeurCmp = UART;
-IdModule  = Molex-PicoBlade-SMD-4;
+IdModule  = _Molex-PicoBlade-SMD-4;
 EndCmp
 
 BeginCmp
@@ -382,7 +382,7 @@ BeginCmp
 TimeStamp = /51295FEA;
 Reference = P1;
 ValeurCmp = POWER;
-IdModule  = ;
+IdModule  = _Molex-PicoBlade-SMD-2;
 EndCmp
 
 BeginCmp
@@ -535,7 +535,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5197374F;
 Reference = R19;
-ValeurCmp = 0.065;
+ValeurCmp = 0.068;
 IdModule  = SM0603;
 EndCmp
 
@@ -578,84 +578,84 @@ BeginCmp
 TimeStamp = /518B0384;
 Reference = U1;
 ValeurCmp = 24LC128;
-IdModule  = TSSOP-8;
+IdModule  = _TSSOP-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /5128F816;
 Reference = U2;
 ValeurCmp = STM32F415RGT6;
-IdModule  = LQFP64;
+IdModule  = _LQFP64;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B392C;
 Reference = U3;
 ValeurCmp = LTC4412;
-IdModule  = TO92;
+IdModule  = _TSOT23-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2D8B;
 Reference = U4;
 ValeurCmp = MAX3051;
-IdModule  = SOT23-8;
+IdModule  = _SOT23-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2FD3;
 Reference = U5;
 ValeurCmp = LT1965;
-IdModule  = MSOP-8;
+IdModule  = _MSOP-8-EP;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2AA8;
 Reference = U6;
 ValeurCmp = LT1761-3.3;
-IdModule  = TSOT23-5;
+IdModule  = _TSOT23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /519731A6;
 Reference = U7;
 ValeurCmp = LTC4211;
-IdModule  = MSOP-8;
+IdModule  = _MSOP-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2231/518B160F;
 Reference = U8;
 ValeurCmp = MS5611-01BA;
-IdModule  = MS5611-01BA;
+IdModule  = _MS5611-01BA;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2231/518B161F;
 Reference = U9;
 ValeurCmp = MPU6000;
-IdModule  = MPU-60X0;
+IdModule  = _MPU-60X0;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2231/518B1617;
 Reference = U10;
 ValeurCmp = HMC5883L;
-IdModule  = HMC5883L;
+IdModule  = _HMC5883L;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B2231/5196DFD7;
 Reference = U11;
 ValeurCmp = H3LIS331DL;
-IdModule  = H3LIS331DL;
+IdModule  = _H3LIS331DL;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F50C2D;
 Reference = X1;
 ValeurCmp = CRYSTAL 16MHz 10ppm;
-IdModule  = TSX-3225-Crystal;
+IdModule  = _TSX-3225-SMD-XTAL;
 EndCmp
 
 EndListe

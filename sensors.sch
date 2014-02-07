@@ -29,11 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:connectors
-LIBS:div
-LIBS:sensors
-LIBS:stm32
-LIBS:linear-regulators
+LIBS:_connectors
+LIBS:_div
+LIBS:_sensors
+LIBS:_stm32
+LIBS:_linear-regulators
 LIBS:ins-board-cache
 EELAYER 27 0
 EELAYER END
@@ -155,7 +155,7 @@ VCC_A
 Text HLabel 7250 1700 0    60   Input ~ 0
 VCC
 $Comp
-L MPU6000 U9
+L _MPU6000 U9
 U 1 1 518B161F
 P 3600 4550
 F 0 "U9" H 3600 4450 50  0000 C CNN
@@ -246,7 +246,7 @@ NoConn ~ 4550 4450
 NoConn ~ 2650 4800
 NoConn ~ 2650 4900
 $Comp
-L HMC5883L U10
+L _HMC5883L U10
 U 1 1 518B1617
 P 8250 1800
 F 0 "U10" H 8650 2150 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 8800 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MS5611-01BA U8
+L _MS5611-01BA U8
 U 1 1 518B160F
 P 3150 1850
 F 0 "U8" H 3500 2250 50  0000 C CNN
@@ -368,7 +368,7 @@ F 3 "" H 7250 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L H3LIS331DL U11
+L _H3LIS331DL U11
 U 1 1 5196DFD7
 P 8400 4600
 F 0 "U11" H 8800 5100 50  0000 C CNN
