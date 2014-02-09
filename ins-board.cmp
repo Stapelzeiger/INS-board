@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 07 Feb 2014 11:29:21 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 09 Feb 2014 03:16:56 PM CET
 
 BeginCmp
 TimeStamp = /512952F6;
@@ -120,6 +120,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F72BCA;
+Reference = C18;
+ValeurCmp = 10uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /51962E65;
 Reference = C19;
 ValeurCmp = 10uF;
@@ -141,9 +148,9 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51974895;
+TimeStamp = /52F727B7;
 Reference = C22;
-ValeurCmp = 10nF;
+ValeurCmp = 10uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -358,13 +365,6 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /519501A6;
-Reference = D8;
-ValeurCmp = 1SMA5.0A;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /517DBB7E;
 Reference = F1;
 ValeurCmp = FUSE 500mA;
@@ -389,21 +389,14 @@ BeginCmp
 TimeStamp = /5129635C;
 Reference = Q1;
 ValeurCmp = FDN306P;
-IdModule  = ;
+IdModule  = _FAIRCHILD-MOSFET-SuperSOT-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /518B34E1;
 Reference = Q2;
 ValeurCmp = FDC638APZ;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /5197C0F0;
-Reference = Q3;
-ValeurCmp = FDC637BNZ;
-IdModule  = ;
+IdModule  = _FAIRCHILD-MOSFET-SuperSOT-6;
 EndCmp
 
 BeginCmp
@@ -533,13 +526,6 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5197374F;
-Reference = R19;
-ValeurCmp = 0.068;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /518B315C;
 Reference = R20;
 ValeurCmp = 47k;
@@ -549,27 +535,6 @@ EndCmp
 BeginCmp
 TimeStamp = /51986576;
 Reference = R21;
-ValeurCmp = 47k;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51974B38;
-Reference = R22;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51974B47;
-Reference = R23;
-ValeurCmp = R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5197364B;
-Reference = R24;
 ValeurCmp = 47k;
 IdModule  = SM0603;
 EndCmp
@@ -617,10 +582,10 @@ IdModule  = _TSOT23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /519731A6;
+TimeStamp = /52F73BF5;
 Reference = U7;
-ValeurCmp = LTC4211;
-IdModule  = _MSOP-8;
+ValeurCmp = LT1965;
+IdModule  = _MSOP-8-EP;
 EndCmp
 
 BeginCmp
