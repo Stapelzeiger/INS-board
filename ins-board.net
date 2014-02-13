@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/pa/dev/elektronik/projekte/ins-board/ins-board.sch)
-    (date "Don 13 Feb 2014 01:38:18 UTC")
+    (date "Don 13 Feb 2014 02:06:09 UTC")
     (tool "eeschema (2013-may-18)-stable"))
   (components
     (comp (ref R11)
@@ -921,10 +921,10 @@
       (uri kicad-lib/components/_connectors.lib))
     (library (logical _div)
       (uri kicad-lib/components/_div.lib))
-    (library (logical _stm32)
-      (uri kicad-lib/components/_stm32.lib))
     (library (logical _sensors)
       (uri kicad-lib/components/_sensors.lib))
+    (library (logical _stm32)
+      (uri kicad-lib/components/_stm32.lib))
     (library (logical _linear-regulators)
       (uri kicad-lib/components/_linear-regulators.lib)))
   (nets
