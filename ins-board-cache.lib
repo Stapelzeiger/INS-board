@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Don 13 Feb 2014 02:05:49 UTC
+EESchema-LIBRARY Version 2.3  Date: Don 13 Feb 2014 23:58:01 UTC
 #encoding utf-8
 #
 # C
@@ -181,26 +181,6 @@ DRAW
 X VCC 1 0 0 0 U 20 20 0 0 W N
 C 0 50 20 0 1 0 N
 P 3 0 1 0  0 0  0 30  0 30 N
-ENDDRAW
-ENDDEF
-#
-# ZENER
-#
-DEF ZENER D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "ZENER" 0 -100 40 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-$FPLIST
- D?
- SO*
- SM*
-$ENDFPLIST
-DRAW
-P 5 0 1 0  50 0  -50 50  -50 -50  50 0  50 0 F
-P 5 0 1 8  70 50  50 30  50 -30  30 -50  30 -50 N
-X A 1 -200 0 150 R 40 40 1 1 P
-X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
