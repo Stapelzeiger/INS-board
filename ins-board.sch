@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "INS BOARD"
-Date "13 feb 2014"
+Date "16 feb 2014"
 Rev "REV A"
 Comp ""
 Comment1 ""
@@ -395,7 +395,7 @@ F 3 "I2C EEPROM" H 1400 7150 50  0001 C CNN
 	1    1400 7150
 	1    0    0    -1  
 $EndComp
-Text Label 3950 3600 0    30   ~ 0
+Text Label 3950 5200 0    30   ~ 0
 SD_DETECT
 Text Label 1700 6200 2    30   ~ 0
 SD_DETECT
@@ -508,7 +508,7 @@ Text Notes 3900 5800 0    30   ~ 0
 UART6_RX
 Text Notes 3900 5700 0    30   ~ 0
 UART6_TX
-Text Label 3950 4800 0    30   ~ 0
+Text Label 3950 6500 0    30   ~ 0
 HMC5883L_DRDY
 Text Label 3950 5500 0    30   ~ 0
 MPU6000_CS
@@ -518,9 +518,9 @@ Text Label 4250 2300 0    30   ~ 0
 INT_SPI_MISO
 Text Label 4250 2200 0    30   ~ 0
 INT_SPI_SCK
-Text Label 3950 4900 0    30   ~ 0
+Text Label 3950 5300 0    30   ~ 0
 MPU6000_INT
-Text Label 3950 2500 0    30   ~ 0
+Text Label 3950 5400 0    30   ~ 0
 MPU6000_FSYNC
 $Comp
 L R R15
@@ -662,9 +662,9 @@ Text Label 4250 5800 0    30   ~ 0
 UART_CONN4_RX
 Text Label 4250 5700 0    30   ~ 0
 UART_CONN4_TX
-Text Label 4100 6600 0    30   ~ 0
+Text Label 3950 4900 0    30   ~ 0
 STATUS_LED
-Text Label 4100 6500 0    30   ~ 0
+Text Label 3950 4800 0    30   ~ 0
 ERROR_LED
 Text Label 3650 750  2    30   ~ 0
 ERROR_LED
@@ -1543,12 +1543,8 @@ F13 "H3LIS331DL_INT2" O R 6450 6750 60
 $EndSheet
 Text Label 6450 6650 0    30   ~ 0
 H3LIS331DL_INT1
-Text Label 6450 6750 0    30   ~ 0
-H3LIS331DL_INT2
-Text Label 3950 5300 0    30   ~ 0
+Text Label 3950 6600 0    30   ~ 0
 H3LIS331DL_INT1
-Text Label 3950 5400 0    30   ~ 0
-H3LIS331DL_INT2
 Text Notes 1050 7600 0    60   ~ 0
 EEPROM
 $Comp
@@ -1639,8 +1635,6 @@ Wire Wire Line
 	1000 1400 1250 1400
 Wire Wire Line
 	6600 3600 6600 3250
-Wire Wire Line
-	3950 6500 4100 6500
 Wire Wire Line
 	3950 5700 4250 5700
 Wire Wire Line
@@ -1759,8 +1753,6 @@ Wire Wire Line
 	3950 2000 4300 2000
 Wire Wire Line
 	3950 5800 4250 5800
-Wire Wire Line
-	3950 6600 4100 6600
 Wire Wire Line
 	1250 1400 1250 1300
 Connection ~ 1150 1900
@@ -1955,7 +1947,6 @@ Wire Wire Line
 	5850 1350 5850 1250
 Wire Wire Line
 	5850 1250 6200 1250
-NoConn ~ 3950 5200
 Connection ~ 650  4850
 $Comp
 L _XTAL-SMD-4-PADS X1
@@ -2120,4 +2111,5 @@ NoConn ~ 3950 2100
 Wire Wire Line
 	8650 5700 8650 5800
 Connection ~ 8000 3250
+NoConn ~ 6450 6750
 $EndSCHEMATC

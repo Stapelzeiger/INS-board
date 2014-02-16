@@ -1,4 +1,4 @@
-update=Sam 15 Feb 2014 13:58:01 UTC
+update=Son 16 Feb 2014 01:57:24 UTC
 last_client=pcbnew
 [general]
 version=1
@@ -53,12 +53,12 @@ LibName34=_stm32
 LibName35=_linear-regulators
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=ins-board.net
 UseCmpFile=1
-PadDrill="    2.200000"
-PadDrillOvalY="    2.200000"
-PadSizeH="    2.600000"
-PadSizeV="    2.600000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    1.150000"
+PadSizeV="    1.500000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
