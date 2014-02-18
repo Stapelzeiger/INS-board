@@ -634,7 +634,7 @@ F 3 "" H 3150 1050 60  0001 C CNN
 	1    3150 1050
 	1    0    0    -1  
 $EndComp
-Text Label 3950 2700 0    30   ~ 0
+Text Label 3950 4900 0    30   ~ 0
 SD_LED
 Text Label 850  6100 2    30   ~ 0
 SD_LED
@@ -662,7 +662,7 @@ Text Label 4250 5800 0    30   ~ 0
 UART_CONN4_RX
 Text Label 4250 5700 0    30   ~ 0
 UART_CONN4_TX
-Text Label 3950 4900 0    30   ~ 0
+Text Label 3950 2700 0    30   ~ 0
 STATUS_LED
 Text Label 3950 4800 0    30   ~ 0
 ERROR_LED
