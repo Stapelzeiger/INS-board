@@ -1362,7 +1362,7 @@ F 3 "CAN Transceiver" H 7300 2200 50  0001 C CNN
 $EndComp
 Text Label 8650 4950 2    30   ~ 0
 EN_VCC_A
-Text Label 3950 3500 0    30   ~ 0
+Text Label 3950 6500 0    30   ~ 0
 EN_VCC_A
 $Comp
 L R R21
