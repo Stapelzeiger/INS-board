@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "INS BOARD"
-Date "16 feb 2014"
+Date "18 feb 2014"
 Rev "REV A"
 Comp ""
 Comment1 ""
@@ -165,7 +165,7 @@ F 4 "EMK325ABJ107MM-T" H 8000 3450 60  0001 C CNN "PartNum"
 	1    8000 3450
 	-1   0    0    1   
 $EndComp
-Text Label 3950 3400 0    30   ~ 0
+Text Label 3950 3600 0    30   ~ 0
 IO_EN
 $Comp
 L GND #PWR05
@@ -508,7 +508,7 @@ Text Notes 3900 5800 0    30   ~ 0
 UART6_RX
 Text Notes 3900 5700 0    30   ~ 0
 UART6_TX
-Text Label 3950 6500 0    30   ~ 0
+Text Label 3950 3400 0    30   ~ 0
 HMC5883L_DRDY
 Text Label 3950 5500 0    30   ~ 0
 MPU6000_CS
