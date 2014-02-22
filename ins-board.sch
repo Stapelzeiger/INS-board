@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "INS BOARD"
-Date "18 feb 2014"
+Date "22 feb 2014"
 Rev "REV A"
 Comp ""
 Comment1 ""
@@ -165,7 +165,7 @@ F 4 "EMK325ABJ107MM-T" H 8000 3450 60  0001 C CNN "PartNum"
 	1    8000 3450
 	-1   0    0    1   
 $EndComp
-Text Label 3950 3600 0    30   ~ 0
+Text Label 3950 3900 0    30   ~ 0
 IO_EN
 $Comp
 L GND #PWR05
