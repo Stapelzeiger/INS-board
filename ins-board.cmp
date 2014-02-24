@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sam 15 Feb 2014 13:57:09 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 24 Feb 2014 09:00:05 UTC
 
 BeginCmp
 TimeStamp = /512952F6;
@@ -383,6 +383,13 @@ TimeStamp = /51295FEA;
 Reference = P1;
 ValeurCmp = POWER;
 IdModule  = _Molex-PicoBlade-SMD-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /530B0BE6;
+Reference = P2;
+ValeurCmp = Power (Solder Pad);
+IdModule  = _Solder_Pad2.54_2;
 EndCmp
 
 BeginCmp

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "INS BOARD"
-Date "22 feb 2014"
+Date "24 feb 2014"
 Rev "REV A"
 Comp ""
 Comment1 ""
@@ -2129,4 +2129,28 @@ Wire Wire Line
 	4400 800  4500 800 
 Wire Wire Line
 	4600 750  4600 850 
+$Comp
+L CONN_2 P2
+U 1 1 530B0BE6
+P 5700 2600
+F 0 "P2" V 5650 2600 40  0000 C CNN
+F 1 "Power (Solder Pad)" V 5850 2600 40  0000 C CNN
+F 2 "~" H 5700 2600 60  0000 C CNN
+F 3 "~" H 5700 2600 60  0000 C CNN
+	1    5700 2600
+	1    0    0    -1  
+$EndComp
+Text Label 5350 2500 2    30   ~ 0
+V_DC
+$Comp
+L GND #PWR052
+U 1 1 530B0C43
+P 5350 2700
+F 0 "#PWR052" H 5350 2700 30  0001 C CNN
+F 1 "GND" H 5350 2630 30  0001 C CNN
+F 2 "" H 5350 2700 60  0000 C CNN
+F 3 "" H 5350 2700 60  0000 C CNN
+	1    5350 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
