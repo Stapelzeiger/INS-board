@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 24 Feb 2014 09:00:05 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 26 Feb 2014 19:47:38 UTC
 
 BeginCmp
 TimeStamp = /512952F6;
@@ -360,8 +360,8 @@ EndCmp
 BeginCmp
 TimeStamp = /517DA8C1;
 Reference = D6;
-ValeurCmp = DIODESCH;
-IdModule  = _0603-W;
+ValeurCmp = BAS52-02V;
+IdModule  = _SC79;
 EndCmp
 
 BeginCmp
@@ -379,9 +379,9 @@ IdModule  = _0603-W;
 EndCmp
 
 BeginCmp
-TimeStamp = /51295FEA;
+TimeStamp = /530D1BE0;
 Reference = P1;
-ValeurCmp = POWER;
+ValeurCmp = PWR;
 IdModule  = _Molex-PicoBlade-SMD-2;
 EndCmp
 
