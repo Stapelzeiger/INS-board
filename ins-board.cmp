@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 26 Feb 2014 19:47:38 UTC
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mit 05 Mär 2014 15:45:59 UTC
 
 BeginCmp
 TimeStamp = /512952F6;
@@ -550,7 +550,7 @@ BeginCmp
 TimeStamp = /518B0384;
 Reference = U1;
 ValeurCmp = 24LC128;
-IdModule  = _MSOP-8;
+IdModule  = _TSSOP-8;
 EndCmp
 
 BeginCmp
