@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ins-board-cache
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,8 +35,7 @@ LIBS:_div
 LIBS:_sensors
 LIBS:_stm32
 LIBS:_linear-regulators
-LIBS:ins-board-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
