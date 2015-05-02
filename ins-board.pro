@@ -1,4 +1,4 @@
-update=2015 April 21, Tuesday 16:14:36
+update=2015 May 02, Saturday 18:40:14
 last_client=kicad
 [general]
 version=1
@@ -90,3 +90,16 @@ LibName33=_div
 LibName34=_sensors
 LibName35=_stm32
 LibName36=_linear-regulators
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
