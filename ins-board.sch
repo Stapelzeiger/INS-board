@@ -381,28 +381,6 @@ F 3 "" H 1100 950 60  0001 C CNN
 $EndComp
 Text Label 10800 4300 0    30   ~ 0
 VCC_A
-$Comp
-L R R13
-U 1 1 517DA7DC
-P 9250 5850
-F 0 "R13" V 9150 5850 50  0000 C CNN
-F 1 "22" V 9250 5850 50  0000 C CNN
-F 2 "" H 9250 5850 60  0001 C CNN
-F 3 "" H 9250 5850 60  0001 C CNN
-	1    9250 5850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R12
-U 1 1 517DA7D3
-P 9250 5750
-F 0 "R12" V 9150 5750 50  0000 C CNN
-F 1 "22" V 9250 5750 50  0000 C CNN
-F 2 "" H 9250 5750 60  0001 C CNN
-F 3 "" H 9250 5750 60  0001 C CNN
-	1    9250 5750
-	0    1    1    0   
-$EndComp
 Text Label 3950 2700 0    30   ~ 0
 V_USB
 NoConn ~ 9450 5950
@@ -598,15 +576,15 @@ F 3 "" H 750 5250 60  0001 C CNN
 $EndComp
 Text Label 5800 3150 2    30   ~ 0
 V_USB
-Text Label 8250 5650 2    30   ~ 0
+Text Label 9050 5400 2    30   ~ 0
 V_USB
 Text Label 3950 2900 0    30   ~ 0
 USB_DM
 Text Label 3950 3000 0    30   ~ 0
 USB_DP
-Text Label 8250 5850 2    30   ~ 0
+Text Label 7900 5850 2    30   ~ 0
 USB_DP
-Text Label 8250 5750 2    30   ~ 0
+Text Label 7900 5750 2    30   ~ 0
 USB_DM
 $Comp
 L GND #PWR019
@@ -1541,13 +1519,13 @@ $EndComp
 $Comp
 L F_Small F?
 U 1 1 55398896
-P 9000 5650
-F 0 "F?" H 8850 5750 50  0000 L CNN
-F 1 "500mA" H 8950 5750 50  0000 L CNN
-F 2 "" H 9000 5650 60  0000 C CNN
-F 3 "" H 9000 5650 60  0000 C CNN
-F 4 "0ZCK0050FF2E" H 9000 5700 24  0000 C CNN "Part"
-	1    9000 5650
+P 9300 5650
+F 0 "F?" H 9150 5750 50  0000 L CNN
+F 1 "500mA" H 9250 5750 50  0000 L CNN
+F 2 "" H 9300 5650 60  0000 C CNN
+F 3 "" H 9300 5650 60  0000 C CNN
+F 4 "0ZCK0050FF2E" H 9300 5700 24  0000 C CNN "Part"
+	1    9300 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1920,7 +1898,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 7600 4750 7600
 Wire Wire Line
-	9100 5650 9450 5650
+	9400 5650 9450 5650
 Wire Wire Line
 	2450 2600 2300 2600
 Wire Wire Line
@@ -2144,7 +2122,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 6100 9300 6050
 Wire Wire Line
-	8750 6050 9300 6050
+	9150 6050 9300 6050
 Wire Wire Line
 	9300 6050 9450 6050
 Connection ~ 650  4950
@@ -2278,13 +2256,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 2450 10200 2450
 Wire Wire Line
-	9400 5750 9450 5750
+	9100 5750 9450 5750
 Wire Wire Line
-	9400 5850 9450 5850
-Wire Wire Line
-	8750 5750 9100 5750
-Wire Wire Line
-	8750 5850 9100 5850
+	9100 5850 9450 5850
 Wire Wire Line
 	7600 1200 7600 1300
 Wire Wire Line
@@ -2394,9 +2368,9 @@ Wire Wire Line
 Wire Wire Line
 	7050 750  7050 800 
 Wire Wire Line
-	6900 3600 6900 3550
+	6900 3450 6900 3550
 Wire Wire Line
-	6900 3550 6900 3450
+	6900 3550 6900 3600
 Wire Wire Line
 	6450 3650 6900 3650
 Wire Wire Line
@@ -2418,8 +2392,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 5700 10400 5800
 Connection ~ 10400 5800
-Wire Wire Line
-	8900 5650 8750 5650
 Connection ~ 9300 6050
 Wire Wire Line
 	9450 6150 9450 6400
@@ -2429,8 +2401,6 @@ Wire Wire Line
 	10200 6400 10200 5700
 Wire Wire Line
 	10200 5700 10400 5700
-Text Notes 5400 -250 0    60   ~ 0
-2x SP3001\nIO port protection
 Wire Wire Line
 	3550 800  3750 800 
 Wire Wire Line
@@ -2452,8 +2422,6 @@ Wire Wire Line
 	2450 1900 2350 1900
 Wire Wire Line
 	2350 1900 2350 1950
-Text Notes 8250 5950 0    60   ~ 0
-NUP2202W1 
 $Comp
 L C C?
 U 1 1 5547C306
@@ -2473,7 +2441,7 @@ Wire Wire Line
 	8450 4200 8450 4300
 Connection ~ 8450 3300
 Wire Wire Line
-	6700 3600 6900 3600
+	6900 3600 6700 3600
 Wire Wire Line
 	6700 3600 6700 3750
 Connection ~ 6700 3600
@@ -2528,4 +2496,32 @@ F 3 "" H 3750 1150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3750 1150 3750 1100
+$Comp
+L NUF2042XV6 U?
+U 1 1 55450335
+P 8550 5800
+F 0 "U?" H 8850 6100 60  0000 C CNN
+F 1 "NUF2042XV6" H 8450 6100 60  0000 C CNN
+F 2 "" H 8550 5700 60  0000 C CNN
+F 3 "" H 8550 5700 60  0000 C CNN
+	1    8550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 6050 9150 5950
+Wire Wire Line
+	9150 5950 9100 5950
+Wire Wire Line
+	9100 5650 9150 5650
+Wire Wire Line
+	9150 5650 9200 5650
+Wire Wire Line
+	7900 5750 8000 5750
+Wire Wire Line
+	7900 5850 8000 5850
+Wire Wire Line
+	9150 5650 9150 5400
+Wire Wire Line
+	9150 5400 9050 5400
+Connection ~ 9150 5650
 $EndSCHEMATC
