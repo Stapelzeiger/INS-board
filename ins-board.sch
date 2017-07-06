@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -2227,8 +2226,6 @@ Wire Wire Line
 	10200 5700 10400 5700
 Wire Wire Line
 	3850 800  4150 800 
-Text Notes 9500 -300 0    60   ~ 0
-NUP2105L \ncan esd protection
 $Comp
 L GND #PWR22
 U 1 1 5546D838
@@ -2525,4 +2522,22 @@ Wire Wire Line
 	9250 1850 9500 1850
 Wire Wire Line
 	9250 1950 9400 1950
+Text Notes 9150 4750 0    197  ~ 39
+SiP32402A
+Text Notes 450  6000 1    197  ~ 39
+Better switch\neg: SiP32414 \n
+Text Notes 6800 3900 0    197  ~ 39
+LTC4413
+Text Notes 5050 4300 0    197  ~ 39
+LTC4362-2\n/TPS25200
+Text Notes 3400 600  0    197  ~ 39
+switch?
+Text Notes 550  7700 0    197  ~ 39
+replace by\nMR25H256CDC\nMRAM, SPI
+Text Notes 9500 3500 0    197  ~ 39
+LTC3410 DCDC
+Text Notes 4250 2700 0    30   ~ 0
+UART1_TX
+Text Notes 4250 2800 0    30   ~ 0
+UART1_RX
 $EndSCHEMATC

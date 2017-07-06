@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -460,4 +459,8 @@ Text HLabel 9100 4700 2    60   Input ~ 0
 VCC_A
 Text HLabel 9100 4800 2    60   Input ~ 0
 VCC_A
+Text Notes 4250 3200 0    157  ~ 31
+add L3GD20 gyro\n
+Text Notes 3050 4750 0    157  ~ 31
+MPU9250\n
 $EndSCHEMATC
